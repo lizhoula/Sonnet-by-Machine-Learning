@@ -1,7 +1,7 @@
 # Sonnet-by-Machine-Learning
 In this project,  we're going to train an n-gram language model that is able to "imitate" William Shakespeare's writing.
 
-As the first step towards imitating Shakespeare's writing, you will create a function called load_data that loads his original Sonnets from ../gutenberg/THE_SONNETS.txt. This function should accomplish the following:
+As the first step towards imitating Shakespeare's writing, we load his original Sonnets from ../gutenberg/THE_SONNETS.txt. This function should accomplish the following:
   1) Extract sentences from the data file.
   2) Tokenise each extracted sentence. 
 
