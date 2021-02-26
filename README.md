@@ -5,10 +5,10 @@ As the first step towards imitating Shakespeare's writing, you will create a fun
   1) Extract sentences from the data file.
   2) Tokenise each extracted sentence. 
 
-Next, we need a "vocabulary" that contains all the unique tokens. Moreover, we often pad a sentence with <s> and </s> to indicate its start and end when working with n-gram language models; therefore, these two special tokens should also be included in our vocabulary.
+Next, we need a "vocabulary" that contains all the unique tokens. Moreover, we often pad a sentence with '<s>' and '</s>' to indicate its start and end when working with n-gram language models; therefore, these two special tokens should also be included in our vocabulary.
 
 Then, let's write a function to generate all  𝑛 -grams for each sentence. This can be accomplished in two steps:
-  1) Pad each sentence with <s> and </s> for  𝑛≥2 . 
+  1) Pad each sentence with '<s>' and '</s>' for  𝑛≥2 . 
   2) Generate  𝑛 -grams on the padded sentences.
 
 Assume we are now working with bi-grams. a bi-gram language model is essentially a first-order Markov Chain.
